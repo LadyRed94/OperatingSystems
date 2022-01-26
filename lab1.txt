@@ -1,0 +1,68 @@
+    1  sudo apt install gcc
+    2  exit
+    3  scp -P 2222 lady_red@127.0.0.1:/Users/alex/Desktop/Desktop/Evergreen State College/Winter_2022/Operating Systems
+    4  scp -P 2222 lady_red@127.0.0.1:/Users/alex/Desktop/Desktop/Evergreen State College/Winter_2022/Operating Systems/ostep-code-master
+    5  sftp -P 2222 lady_red@127.0.0.1:/Users/alex/Desktop/Desktop/Evergreen State College/Winter_2022/Operating Systems/ostep-code-master
+    6  ls
+    7  scp -P 2222 lady_red@127.0.0.1:/Users/alex/Desktop/Desktop/Evergreen State College/Winter_2022/Operating Systems/ostep-code-master
+    8  $ scp -P 2222 alain@127.0.0.1:/proc/cpuinfo .
+    9  scp -P 2222 alain@127.0.0.1:/proc/cpuinfo .
+   10  scp -P 2222 lady_red@127.0.0.1:/proc/cpuinfo .
+   11  sudo apt install git
+   12  git https://github.com/remzi-arpacidusseau/ostep-code.git
+   13  git --help
+   14  gh repo clone remzi-arpacidusseau/ostep-code
+   15  sudo apt install gitsome
+   16  gh repo clone remzi-arpacidusseau/ostep-code
+   17  gh repo clone https://github.com/remzi-arpacidusseau/ostep-code.git
+   18  git clone remzi-arpacidusseau/ostep-code
+   19  git clone https://github.com/remzi-arpacidusseau/ostep-code.git
+   20  ls
+   21  cd ostep-code
+   22  ls
+   23  cd intro
+   24  ls
+   25  ./cpu.c
+   26  sudo ./cpu.c
+   27  sudo /cpu.c
+   28  sudo cpu.c
+   29  ls
+   30  ./cpu.c
+   31  sudo ./cpu.c
+   32  exit
+   33  ls
+   34  cd ostep-code
+   35  ls
+   36  cd intro
+   37  ls
+   38  ./cpu
+   39  ./cpu A
+   40  ls
+   41  cpu A B
+   42  ./cpu A B
+   43  gcc mem.c
+   44  ls
+   45  rm a.out
+   46  ls
+   47  gcc -o mem.c mem
+   48  gcc --help
+   49  gcc mem.c mem
+   50  gcc mem.c
+   51  ls
+   52  a.out
+   53  ./a.out
+   54  mem 4
+   55  rm a.out
+   56  ls
+   57  ./cpu A & ./cpu B & ./cpu C & ./cpu D
+   58  ?kill
+   59  kill 
+   60  stop
+   61  exit
+   62  ls
+   63  history
+   64  history > lab1
+   65  ls
+   66  ./lab1
+   67  rm lab1
+   68  history > lab1.txt
